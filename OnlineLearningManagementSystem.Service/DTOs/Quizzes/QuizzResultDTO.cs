@@ -10,5 +10,5 @@ public class QuizzResultDTO
     public string Title { get; set; }
     public long CourseId { get; set; }
     public long UserId { get; set; }
-    public ICollection<QuestionEntity> Questions { get; set; }
+    public ICollection<QuizzResultDTO> Questions { get; set; }
 }

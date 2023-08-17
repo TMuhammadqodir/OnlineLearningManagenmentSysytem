@@ -9,6 +9,6 @@ public class UserResultDTO
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string TelNumber { get; set; }
-    public ICollection<QuizzEntity> Quizzes { get; set; }
-    public ICollection<EnrollmentEntity> Enrollments { get; set; }
+    public ICollection<QuizzResultDTO> Quizzes { get; set; }
+    public ICollection<EnrollmentResultDTO> Enrollments { get; set; }
 }

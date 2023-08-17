@@ -11,7 +11,7 @@ public class CourseResultDTO
     public string Name { get; set; }
     public string Description { get; set; }
     public ICollection<LessonResultDTO> Lessons { get; set; }
-    public ICollection<AssiginmentEntity> Assiginments { get; set; }
-    public ICollection<QuizzEntity> Quizzes { get; set; }
-    public ICollection<EnrollmentEntity> Enrollments { get; set; }
+    public ICollection<AssiginmentResultDTO> Assiginments { get; set; }
+    public ICollection<QuizzResultDTO> Quizzes { get; set; }
+    public ICollection<EnrollmentResultDTO> Enrollments { get; set; }
 }

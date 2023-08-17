@@ -7,5 +7,5 @@ public class QuestionResultDTO
 {
     public string Text { get; set; }
     public long QuizzId { get; set; }
-    public ICollection<ChoiceEntity> Choices { get; set; }
+    public ICollection<ChoiceResultDTO> Choices { get; set; }
 }

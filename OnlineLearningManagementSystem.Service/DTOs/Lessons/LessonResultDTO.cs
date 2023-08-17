@@ -10,5 +10,5 @@ public class LessonResultDTO
     public string Title { get; set; }
     public string Content { get; set; }
     public long CourseId { get; set; }  
-    public ICollection<ProgressEntity> Progresses { get; set; }
+    public ICollection<ProgressResultDTO> Progresses { get; set; }
 }
